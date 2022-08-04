@@ -37,7 +37,7 @@ h4 {
    flex-flow: row wrap;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 480px) {
    .carousel-main {
       padding-top: 40px;
    }
