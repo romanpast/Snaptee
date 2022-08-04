@@ -36,33 +36,51 @@ h4 {
    display: flex;
    flex-flow: row wrap;
 }
-
-@media (max-width: 480px) {
-   .carousel-main {
-      padding-top: 40px;
+@media (max-width: 800px) {
+   .carouselItem {
+      padding-top: 70px !important;
    }
 }
-
-@media (max-width: 500px) {
-   .wrapper {
-     display: none;
-   }
-  
- }
-
-
- .carousel-main {
+@media (max-width: 600px) {
+      #r-img1 {
+         display: none
+      };  
+   }    
+ @media (max-width: 600px) {
+   #r-img2 {
+      display: block !important;
+   };     
+}
+#r-img2 {
+      display: none;
+   }       
+.carousel-main {
    overflow: auto;
    height: 100%;
- }
-
- h3 {
+}
+h3 {
    color: #fa2121;
-   text-align:center;
-
- }
-
- p {
+   text-align: center;
+}
+p {
    color: #8b8b8b;
-   text-align:center;
- }
+   text-align: center;
+}
+.wrapper-links {
+   display: flex;
+   flex-flow: row wrap;
+}
+#apple {
+   background: url("https://d1tb5im0xynh1.cloudfront.net/static/images/app-download-badges/app-store-desktop.png");
+   background-repeat: no-repeat;
+   background-size: auto;
+}
+#android {
+   background: url("https://d1tb5im0xynh1.cloudfront.net/static/images/app-download-badges/play-store-desktop.png");
+   background-repeat: no-repeat;
+   background-size: auto;
+}
+.dow-link {
+   width: 215px;
+   height: 76px;
+}
